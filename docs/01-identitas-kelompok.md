@@ -2,7 +2,7 @@
 
 ---
 
-Nama Kelompok: Kelompok 3
+Nama Kelompok: Kelompok 5
 
 Nama Proyek / Aplikasi: Smart Trip Planner Aceh
 
@@ -16,15 +16,15 @@ Repositori: "https://github.com/nama-kelompok/smart-trip-planner"
 
 Anggota 1
 
-- Nama Lengkap: "Isi Nama"
-- NIM: "Isi NIM"
+- Nama Lengkap: Masda Alfarisi
+- NIM: 230705136
 - Role: Documentation Engineer
 - Teknologi: Markdown, Draw.io, Figma
 
 Anggota 2
 
-- Nama Lengkap: "Isi Nama"
-- NIM: "Isi NIM"
+- Nama Lengkap: Masda Alfarisi
+- NIM: 230705136
 - Role: DevOps Engineer
 - Teknologi: GitHub, Docker
 
