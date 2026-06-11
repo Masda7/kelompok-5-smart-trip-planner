@@ -8,7 +8,7 @@ Nama Proyek / Aplikasi: Smart Trip Planner Aceh
 
 Jumlah Anggota: 3 orang
 
-Repositori: "https://github.com/nama-kelompok/smart-trip-planner"
+Repositori: https://github.com/Masda7/kelompok-5-smart-trip-planner
 
 ---
 
@@ -16,30 +16,30 @@ Repositori: "https://github.com/nama-kelompok/smart-trip-planner"
 
 Anggota 1
 
-- Nama Lengkap: Masda Alfarisi
-- NIM: 230705136
-- Role: Documentation Engineer
-- Teknologi: Markdown, Draw.io, Figma
+- Nama Lengkap: Zada Rahmat Fauzie
+- NIM: 230705145
+- Role: Frontend Engineer
+- Teknologi: Laravel Blade, Bootstrap 5, HTML, CSS, JavaScript, Leaflet.js
 
 Anggota 2
+
+- Nama Lengkap: Azhabul Firdaus
+- NIM: 230705161
+- Role: Backend Engineer
+- Teknologi: Laravel 12, MySQL, REST API, JWT
+
+Anggota 3
 
 - Nama Lengkap: Masda Alfarisi
 - NIM: 230705136
 - Role: DevOps Engineer
 - Teknologi: GitHub, Docker
 
-Anggota 3
-
-- Nama Lengkap: "Isi Nama"
-- NIM: "Isi NIM"
-- Role: Laravel Developer
-- Teknologi: Laravel, MySQL
-
 ---
 
 ## Stack Teknologi
 
-Frontend: Laravel Blade
+Frontend: Laravel Blade, Bootstrap 5, HTML, CSS, JavaScript
 
 Frontend digunakan untuk menampilkan antarmuka pengguna, halaman destinasi wisata, itinerary perjalanan, dan dashboard pengguna.
 
@@ -50,6 +50,14 @@ Backend bertugas menyediakan layanan autentikasi pengguna, pengelolaan data wisa
 Database: MySQL
 
 Database digunakan untuk menyimpan data pengguna, destinasi wisata, kategori wisata, itinerary, dan data pendukung lainnya.
+
+Peta & Lokasi: OpenStreetMap (OSM), Leaflet.js
+
+OpenStreetMap digunakan sebagai sumber data peta dan koordinat lokasi destinasi wisata. Leaflet.js digunakan sebagai library JavaScript untuk menampilkan peta interaktif dan marker lokasi pada antarmuka pengguna.
+
+API Tambahan (Opsional): OpenRouteService API
+
+OpenRouteService digunakan untuk menghitung rute perjalanan, jarak tempuh, dan estimasi waktu antar destinasi wisata dalam itinerary.
 
 DevOps / Infrastruktur: GitHub, Docker
 
@@ -66,7 +74,7 @@ Aplikasi 1 — Frontend
 - Nama Aplikasi: Smart Trip Planner Aceh Web
 - Deskripsi Singkat:
 
-Aplikasi web yang digunakan oleh pengguna untuk melihat daftar destinasi wisata, mencari lokasi wisata berdasarkan kategori, serta menyusun rencana perjalanan (itinerary).
+Aplikasi web yang digunakan oleh pengguna untuk melihat daftar destinasi wisata, mencari lokasi wisata berdasarkan kategori, menampilkan peta interaktif menggunakan Leaflet.js dan OpenStreetMap, serta menyusun rencana perjalanan (itinerary).
 
 - Berkomunikasi dengan:
 
@@ -74,13 +82,13 @@ Trip Planner Service (Laravel Backend)
 
 ---
 
-Aplikasi 3 — Backend (Laravel)
+Aplikasi 2 — Backend (Laravel)
 
 - Nama Aplikasi / Service: Trip Planner Service
 
 - Deskripsi Singkat:
 
-Layanan backend yang menangani autentikasi pengguna, pengelolaan data destinasi wisata, pengelolaan itinerary, serta penyimpanan data ke database.
+Layanan backend yang menangani autentikasi pengguna (JWT), pengelolaan data destinasi wisata, pengelolaan itinerary, kalkulasi estimasi biaya, serta penyimpanan data ke database MySQL.
 
 - Menyediakan layanan untuk:
 
@@ -95,10 +103,11 @@ Fitur Pengguna
 1. Registrasi dan Login
 2. Melihat daftar destinasi wisata
 3. Pencarian dan filter destinasi berdasarkan kategori
-4. Melihat detail destinasi wisata
+4. Melihat detail destinasi wisata beserta lokasi di peta
 5. Menambahkan destinasi ke itinerary
 6. Mengelola rencana perjalanan
 7. Melihat estimasi biaya perjalanan
+8. Melihat rute dan jarak antar destinasi (via OpenRouteService)
 
 Fitur Admin
 
@@ -112,4 +121,4 @@ Fitur Admin
 
 ## Rencana Pengembangan
 
-Pada tahap awal, data wisata akan dikelola secara manual oleh administrator melalui dashboard admin. Pada tahap pengembangan berikutnya, aplikasi dapat diintegrasikan dengan layanan peta digital seperti OpenStreetMap untuk menampilkan lokasi destinasi secara interaktif serta membantu perencanaan rute perjalanan.
+Pada tahap awal, data wisata akan dikelola secara manual oleh administrator melalui dashboard admin. Peta interaktif ditampilkan menggunakan Leaflet.js dengan sumber data dari OpenStreetMap. Pada tahap pengembangan berikutnya, aplikasi dapat diintegrasikan dengan OpenRouteService API untuk menampilkan rute perjalanan secara otomatis berdasarkan itinerary yang disusun pengguna.
