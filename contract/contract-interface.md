@@ -50,10 +50,10 @@ Authorization: Bearer {token}
 
 ```json
 {
-  "message": "Pesan error",
-  "errors": {
-    "field": ["detail error"]
-  }
+    "message": "Pesan error",
+    "errors": {
+        "field": ["detail error"]
+    }
 }
 ```
 
@@ -76,9 +76,9 @@ Request body:
 
 ```json
 {
-  "name": "string — wajib",
-  "email": "string — wajib, format email, unik",
-  "password": "string — wajib, minimal 8 karakter"
+    "name": "string — wajib",
+    "email": "string — wajib, format email, unik",
+    "password": "string — wajib, minimal 8 karakter"
 }
 ```
 
@@ -86,16 +86,16 @@ Response sukses `201`:
 
 ```json
 {
-  "data": {
-    "token": "eyJ0eXAiOiJKV1Qi...",
-    "user": {
-      "id": 1,
-      "name": "Zada Rahmat Fauzie",
-      "email": "zada@example.com",
-      "created_at": "2025-04-10T08:00:00Z"
-    }
-  },
-  "message": "Registrasi berhasil"
+    "data": {
+        "token": "eyJ0eXAiOiJKV1Qi...",
+        "user": {
+            "id": 1,
+            "name": "Zada Rahmat Fauzie",
+            "email": "zada@example.com",
+            "created_at": "2025-04-10T08:00:00Z"
+        }
+    },
+    "message": "Registrasi berhasil"
 }
 ```
 
@@ -107,8 +107,8 @@ Request body:
 
 ```json
 {
-  "email": "string — wajib",
-  "password": "string — wajib"
+    "email": "string — wajib",
+    "password": "string — wajib"
 }
 ```
 
@@ -116,16 +116,16 @@ Response sukses `200`:
 
 ```json
 {
-  "data": {
-    "token": "eyJ0eXAiOiJKV1Qi...",
-    "user": {
-      "id": 1,
-      "name": "Zada Rahmat Fauzie",
-      "email": "zada@example.com",
-      "created_at": "2025-04-10T08:00:00Z"
-    }
-  },
-  "message": "Login berhasil"
+    "data": {
+        "token": "eyJ0eXAiOiJKV1Qi...",
+        "user": {
+            "id": 1,
+            "name": "Zada Rahmat Fauzie",
+            "email": "zada@example.com",
+            "created_at": "2025-04-10T08:00:00Z"
+        }
+    },
+    "message": "Login berhasil"
 }
 ```
 
@@ -133,7 +133,7 @@ Response gagal `401`:
 
 ```json
 {
-  "message": "Email atau password salah"
+    "message": "Email atau password salah"
 }
 ```
 
@@ -145,7 +145,7 @@ Response sukses `200`:
 
 ```json
 {
-  "message": "Logout berhasil"
+    "message": "Logout berhasil"
 }
 ```
 
@@ -157,12 +157,12 @@ Response sukses `200`:
 
 ```json
 {
-  "data": {
-    "id": 1,
-    "name": "Zada Rahmat Fauzie",
-    "email": "zada@example.com",
-    "created_at": "2025-04-10T08:00:00Z"
-  }
+    "data": {
+        "id": 1,
+        "name": "Zada Rahmat Fauzie",
+        "email": "zada@example.com",
+        "created_at": "2025-04-10T08:00:00Z"
+    }
 }
 ```
 
@@ -187,27 +187,27 @@ Response sukses `200`:
 
 ```json
 {
-  "data": [
-    {
-      "id": 1,
-      "name": "Pantai Lhoknga",
-      "description": "Pantai berpasir putih di Aceh Besar",
-      "image_url": "http://localhost:8000/storage/destinasi/lhoknga.jpg",
-      "location": "Aceh Besar",
-      "latitude": 5.51,
-      "longitude": 95.232,
-      "category": {
-        "id": 1,
-        "name": "Pantai"
-      },
-      "entry_fee": 10000,
-      "created_at": "2025-01-10T08:00:00Z"
-    }
-  ],
-  "total": 8,
-  "page": 1,
-  "per_page": 12,
-  "last_page": 1
+    "data": [
+        {
+            "id": 1,
+            "name": "Pantai Lhoknga",
+            "description": "Pantai berpasir putih di Aceh Besar",
+            "image_url": "http://localhost:8000/storage/destinasi/lhoknga.jpg",
+            "location": "Aceh Besar",
+            "latitude": 5.51,
+            "longitude": 95.232,
+            "category": {
+                "id": 1,
+                "name": "Pantai"
+            },
+            "entry_fee": 10000,
+            "created_at": "2025-01-10T08:00:00Z"
+        }
+    ],
+    "total": 8,
+    "page": 1,
+    "per_page": 12,
+    "last_page": 1
 }
 ```
 
@@ -221,21 +221,21 @@ Response sukses `200`:
 
 ```json
 {
-  "data": {
-    "id": 1,
-    "name": "Pantai Lhoknga",
-    "description": "Pantai berpasir putih di Aceh Besar",
-    "image_url": "http://localhost:8000/storage/destinasi/lhoknga.jpg",
-    "location": "Aceh Besar",
-    "latitude": 5.51,
-    "longitude": 95.232,
-    "category": {
-      "id": 1,
-      "name": "Pantai"
-    },
-    "entry_fee": 10000,
-    "created_at": "2025-01-10T08:00:00Z"
-  }
+    "data": {
+        "id": 1,
+        "name": "Pantai Lhoknga",
+        "description": "Pantai berpasir putih di Aceh Besar",
+        "image_url": "http://localhost:8000/storage/destinasi/lhoknga.jpg",
+        "location": "Aceh Besar",
+        "latitude": 5.51,
+        "longitude": 95.232,
+        "category": {
+            "id": 1,
+            "name": "Pantai"
+        },
+        "entry_fee": 10000,
+        "created_at": "2025-01-10T08:00:00Z"
+    }
 }
 ```
 
@@ -247,13 +247,13 @@ Response sukses `200`:
 
 ```json
 {
-  "data": [
-    { "id": 1, "name": "Pantai" },
-    { "id": 2, "name": "Pegunungan" },
-    { "id": 3, "name": "Sejarah & Budaya" },
-    { "id": 4, "name": "Taman & Alam" },
-    { "id": 5, "name": "Kuliner" }
-  ]
+    "data": [
+        { "id": 1, "name": "Pantai" },
+        { "id": 2, "name": "Pegunungan" },
+        { "id": 3, "name": "Sejarah & Budaya" },
+        { "id": 4, "name": "Taman & Alam" },
+        { "id": 5, "name": "Kuliner" }
+    ]
 }
 ```
 
@@ -292,12 +292,12 @@ Response hasil kosong `200`:
 
 ```json
 {
-  "data": [],
-  "total": 0,
-  "page": 1,
-  "per_page": 12,
-  "last_page": 1,
-  "message": "Destinasi tidak ditemukan"
+    "data": [],
+    "total": 0,
+    "page": 1,
+    "per_page": 12,
+    "last_page": 1,
+    "message": "Destinasi tidak ditemukan"
 }
 ```
 
@@ -341,7 +341,7 @@ Request body:
 
 ```json
 {
-  "title": "string — wajib"
+    "title": "string — wajib"
 }
 ```
 
@@ -349,14 +349,14 @@ Response sukses `201`:
 
 ```json
 {
-  "data": {
-    "id": 1,
-    "user_id": 1,
-    "title": "Liburan Banda Aceh 2 Hari",
-    "created_at": "2025-03-01T10:00:00Z",
-    "items": []
-  },
-  "message": "Itinerary berhasil dibuat"
+    "data": {
+        "id": 1,
+        "user_id": 1,
+        "title": "Liburan Banda Aceh 2 Hari",
+        "created_at": "2025-03-01T10:00:00Z",
+        "items": []
+    },
+    "message": "Itinerary berhasil dibuat"
 }
 ```
 
@@ -395,7 +395,7 @@ Response sukses `200`:
 
 ```json
 {
-  "message": "Itinerary berhasil dihapus"
+    "message": "Itinerary berhasil dihapus"
 }
 ```
 
@@ -407,10 +407,10 @@ Request body:
 
 ```json
 {
-  "destination_id": 1,
-  "visit_date": "2025-04-10",
-  "notes": "Kunjungi pagi hari",
-  "order": 1
+    "destination_id": 1,
+    "visit_date": "2025-04-10",
+    "notes": "Kunjungi pagi hari",
+    "order": 1
 }
 ```
 
@@ -433,7 +433,7 @@ Response sukses `200`:
 
 ```json
 {
-  "message": "Destinasi berhasil dihapus dari itinerary"
+    "message": "Destinasi berhasil dihapus dari itinerary"
 }
 ```
 
@@ -454,27 +454,27 @@ Response sukses `200`:
 
 ```json
 {
-  "data": {
-    "itinerary_id": 1,
-    "total_estimate": 15000,
-    "currency": "IDR",
-    "breakdown": [
-      {
-        "destination_id": 3,
-        "destination_name": "Masjid Raya Baiturrahman",
-        "entry_fee": 0,
-        "other_costs": null,
-        "subtotal": 0
-      },
-      {
-        "destination_id": 1,
-        "destination_name": "Pantai Lhoknga",
-        "entry_fee": 10000,
-        "other_costs": 5000,
-        "subtotal": 15000
-      }
-    ]
-  }
+    "data": {
+        "itinerary_id": 1,
+        "total_estimate": 15000,
+        "currency": "IDR",
+        "breakdown": [
+            {
+                "destination_id": 3,
+                "destination_name": "Masjid Raya Baiturrahman",
+                "entry_fee": 0,
+                "other_costs": null,
+                "subtotal": 0
+            },
+            {
+                "destination_id": 1,
+                "destination_name": "Pantai Lhoknga",
+                "entry_fee": 10000,
+                "other_costs": 5000,
+                "subtotal": 15000
+            }
+        ]
+    }
 }
 ```
 
@@ -503,6 +503,3 @@ Response sukses `200`:
 | GET    | /api/itineraries/{id}/cost-estimate   | 🔒   | F-05       |
 
 ---
-
-_Dokumen ini dibuat oleh Frontend Engineer sebagai acuan pengembangan bersama._
-_Perubahan pada contract harus didiskusikan dan disetujui seluruh anggota tim._

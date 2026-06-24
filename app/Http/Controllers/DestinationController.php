@@ -10,4 +10,9 @@ class DestinationController extends Controller
     {
         return view('destinations.index');
     }
+
+    public function show($id)
+    {
+        return view('destinations.show');
+    }
 }

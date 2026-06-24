@@ -106,8 +106,8 @@
                 ['id'=>4,'name'=>'Museum Tsunami Aceh','description'=>'Museum peringatan bencana tsunami 2004.','image_url'=>'/images/tsunami.jpg','location'=>'Banda Aceh','category'=>'Sejarah & Budaya','entry_fee'=>0],
                 ['id'=>5,'name'=>'Gunung Seulawah Agam','description'=>'Gunung berapi aktif yang populer untuk pendakian.','image_url'=>'/images/seulawah.jpg','location'=>'Aceh Besar','category'=>'Pegunungan','entry_fee'=>25000],
                 ['id'=>6,'name'=>'Taman Sari Gunongan','description'=>'Taman bersejarah peninggalan Kerajaan Aceh.','image_url'=>'/images/gunongan.jpg','location'=>'Banda Aceh','category'=>'Sejarah & Budaya','entry_fee'=>5000],
-                ['id'=>7,'name'=>'Hutan Mangrove Langsa','description'=>'Kawasan hutan mangrove dengan jembatan kayu 2 km.','image_url'=>'/images/mangrove.jpg','location'=>'Langsa','category'=>'Taman & Alam','entry_fee'=>15000],
-                ['id'=>8,'name'=>'Mie Aceh Razali','description'=>'Warung mie Aceh legendaris yang sudah berdiri puluhan tahun.','image_url'=>'/images/mieaceh.jpg','location'=>'Banda Aceh','category'=>'Kuliner','entry_fee'=>0],
+                ['id'=>7,'name'=>'Hutan Kota BNI','description'=>'Hutan Kota Tibang, Paru-paru Banda Aceh yang Hasilkan 37 Ton Oksigen/Hari.','image_url'=>'/images/hutankota.jpg','location'=>'Banda Aceh','category'=>'Taman & Alam','entry_fee'=>15000],
+                ['id'=>8,'name'=>'Mie Aceh Razali','description'=>'Warung mie Aceh legendaris yang sudah berdiri puluhan tahun.','image_url'=>'/images/mierajali.jpg','location'=>'Banda Aceh','category'=>'Kuliner','entry_fee'=>0],
             ];
         @endphp
 
